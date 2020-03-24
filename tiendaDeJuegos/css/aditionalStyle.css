@@ -1,0 +1,41 @@
+.bg-darker{
+    background-color: #1981F9 ;
+}
+
+.title{
+    font-size: xx-large;
+}
+
+.precio{
+    font-size: x-large;
+font: oblique bold 125% cursive;
+    font-weight: bold;
+    color: #0050FF;
+}
+
+.per{
+    font: oblique bold 110% cursive;
+  color: #FFFFFF;
+}
+.perN{
+    font: oblique bold 125% cursive;
+  color: #000000;
+}
+.perT{
+    font-size: xx-large;
+    font: oblique bold 300% cursive;
+    color: #FFFFFF;
+}
+
+.textS{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.info{
+    font-size: x-large;
+}
+p {
+  font: oblique bold 120% cursive;
+  color: #FF0000;
+}

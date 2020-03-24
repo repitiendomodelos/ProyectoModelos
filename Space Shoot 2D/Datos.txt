@@ -1,0 +1,19 @@
+Nombre: Space Shoot 2D
+Descripcion: Elegir las armas y derriba los objetos que atacan la base, cuida bien tus disparos ya que te daran el paso al siguiente nivel.
+Precio: $29900
+Desarrollador: Oscar Gutierrez
+Genero:	Shooter, FPS
+Fecha-lanzamiento: 24/03/2020
+Requisitos Minimos: 
+
+Procesador: Intel Pentium 1.7Ghz
+Memoria: 2 GB
+GPU: HD graphics 2000 
+Sistema Operativo: Windows 7 64 bits
+
+Requisitos Recomendados:
+
+Procesador: Intel core i5 2.7Ghz
+Memoria: 4 GB
+GPU: HD graphics 570 
+Sistema Operativo: Windows 10 64 bits

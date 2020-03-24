@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="JQuery/jquery-1.11.0.min.js" language="JavaScript1.2"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>Juego</title>
+</head>
+<body>
+    <img src="Imagenes/Teclas/tecla1.png" id="tecla0" style="display: none;">
+    <img src="Imagenes/Teclas/tecla2.png" id="tecla1" style="display: none;">
+    <img src="Imagenes/Teclas/tecla3.png" id="tecla2" style="display: none;">
+    <img src="Imagenes/Teclas/tecla4.png" id="tecla3" style="display: none;">
+
+    <img src="Imagenes/Rocas/roca1.png" id="roca0" style="display: none;">
+    <img src="Imagenes/Rocas/roca2.png" id="roca1" style="display: none;">
+    <img src="Imagenes/Rocas/roca3.png" id="roca2" style="display: none;">
+    <img src="Imagenes/Rocas/roca4.png" id="roca3" style="display: none;">
+    <img src="Imagenes/Rocas/roca5.png" id="roca4" style="display: none;">
+
+    <img src="Imagenes/Armas/arma1.png" id="armas0" style="display: none;">
+    <img src="Imagenes/Armas/arma2.png" id="armas1" style="display: none;">
+    <img src="Imagenes/Armas/arma3.png" id="armas2" style="display: none;">
+    <img src="Imagenes/Armas/arma4.png" id="armas3" style="display: none;">
+
+    <img src="Imagenes/base1.jpg" id="fondo" style="display: none;">
+    
+    <div class="row" id="principal">
+        <div class="col-sm" id="columna1">
+            <h2 id="titulo">Elija su armamento</h2><br>
+            <h1 id="inicio">
+                
+            </h1>
+            <h1 id="saldo">
+               
+            </h1>
+        </div>
+        <div class="col" id="columna2"> 
+            <form id="menu" >
+
+        
+                <div class="row">
+                    <div class="col">
+                        <img src="Imagenes/Armas/arma1.png" id="armas0" width="100px" height="100px" style="margin-left: 50px;">
+                    </div>
+                    <div class="col">
+                        <input type="number" class="form-control form-control-lg" value="0" name="inp1" id="arma1" onclick="costo()">Coste: 100<br>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col">
+                        <img src="Imagenes/Armas/arma2.png" id="armas1" width="230px" height="150px" style="margin-left: -50px;">
+                    </div>
+                    <div class="col">
+                        <input type="number" class="form-control form-control-lg" value="0" name="inp2" id="arma2" onclick="costo()">Coste: 200<br>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col">
+                        <img src="Imagenes/Armas/arma3.png" id="armas2" width="300px" height="150px" style="margin-left: -110px;"> 
+                    </div>
+                    <div class="col">
+                        <input type="number" class="form-control form-control-lg" value="0" name="inp3" id="arma3" onclick="costo()">Coste: 300<br>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        <img src="Imagenes/Armas/arma4.png" id="armas3" width="280px" height="150px" style="margin-left: -90px;">
+                    </div>
+                    <div class="col">
+                        <input type="number" class="form-control form-control-lg" value="0" name="inp4" id="arma4" onclick="costo()">Coste: 400<br>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm" id="columna3">
+            <input type="button" class="btn btn-success" id="iniciar" value="Iniciar">
+            <input type="button" class="btn btn-warning" id="cambiar" value="Limpiar">
+            
+        </div>
+    </div>
+
+    
+    <div id="sector">
+        <canvas id="ventana" width="900px" height="600px" style="display: none;"></canvas>
+        <input type="button" class="btn btn-danger" id="reset" value="ReIntentar" style="display: none;">
+    </div>
+    
+    
+    <script src="js/juego.js" ></script>
+</body>
+</html>

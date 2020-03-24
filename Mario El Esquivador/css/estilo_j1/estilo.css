@@ -1,0 +1,12 @@
+body{
+   
+    
+    font-size: 2em;
+    
+}
+
+#bloque_juego { 
+	float: left;
+	width: 1000px; 
+	margin: 0 auto
+}

@@ -1,0 +1,49 @@
+
+body{
+  background-image: url(./background.jpg);
+  
+  
+}
+
+canvas {
+    background: rgb(3, 3, 3);
+    border:0px solid yelow;
+    margin-top: 2%;
+    
+
+}
+
+#menu{
+  margin-top: 5%;
+  color: beige;
+}
+#sector{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  margin-top: 10%;
+}
+#columna1{
+  margin-top: 10%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(190, 194, 189);
+}
+
+
+#columna2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#columna3{
+  margin-top: 18%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
